@@ -137,7 +137,7 @@ export default function EnglishQuizPage() {
           </div>
         ) : (
           <QuizComponent
-            title="Mixed ICT Quiz - English"
+            title="Database Design & Development"
             questions={questions}
             onComplete={handleRequestNewQuiz} // page will fetch a new quiz only when user requests
             autoCompleteSignal={autoCompleteSignal}
